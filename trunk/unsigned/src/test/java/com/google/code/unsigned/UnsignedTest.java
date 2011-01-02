@@ -17,7 +17,7 @@ public class UnsignedTest {
 
         assertEquals((int) 2500000000L, add((int) 2000000000, (int) 500000000));
 
-        assertEquals("18446744073709551614", Unsigned.asString(add(Long.MAX_VALUE, Long.MAX_VALUE)));
+        assertEquals("18446744073709551614", asString(add(Long.MAX_VALUE, Long.MAX_VALUE)));
     }
 
     @Test
