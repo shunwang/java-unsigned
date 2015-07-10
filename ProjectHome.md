@@ -1,0 +1,1 @@
+Simpler helper class to use byte, short, int and long as unsigned numbers.
